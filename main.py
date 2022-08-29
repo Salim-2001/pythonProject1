@@ -15,8 +15,4 @@ def page_index():
 def page_store():
     return "Страница магазина "
 
-@app.route('/store/<cat>')
-def page_cat(cat):
-    return f"Страница категории {cat} "
-
 app.run()
