@@ -16,3 +16,5 @@ def page_store():
     return "Страница магазина "
 
 app.run()
+
+print(1000)
